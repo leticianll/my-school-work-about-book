@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #d5a6e5;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.sobre-imagem {
+    width: 35%;
+}
+
+.sobre {
+    background-image: linear-gradient(#d5a6e5, #f6c6c6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.sobre-div-conteudo {
+    width: 50%;
+}
+
+.sobre-titulo {
+    padding: 30px 0;
+}
+
+.livros {
+    padding: 50px 0;
+    background-color: #f9f2f4;
+}
+
+.livros-todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.livros-div {
+    text-align: center;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #e0a9c2;
+}
+
+.livros-imagem {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.livros-titulo {
+    font-size: 36px;
+    color: #d5a6e5;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.livros-autor {
+    font-size: 18px;
+    color: #d89b8c;
+    margin-bottom: 20px;
+}
+
+.livros-descricao {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.rodape {
+    background-color: #d5a6e5;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.rodape-imagem {
+    height: 60px;
+    padding: 12px 0;
+}
+h2 {text-align: center;}
+
